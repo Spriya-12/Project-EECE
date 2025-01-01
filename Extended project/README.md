@@ -44,9 +44,13 @@ Xilinx Vivado is employed for synthesis, simulation, and real-time testing, with
 - **Languages:** Verilog, SystemVerilog  
 - **Design Tool:** Xilinx Vivado  
 
-**Applications:**  
-- Parallel processing  
-- Video streaming  
-- Networking  
 
 ---
+| **Step Number** | **Task**                                | **Duration**       | **Dependencies**                     | **Milestone**                  |
+|------------------|----------------------------------------|--------------------|---------------------------------------|---------------------------------|
+| 1                | Design and Architecture               | Week 1 - Week 2    | None                                  | Independent port access ready  |
+| 2                | Verification and Test                 | Week 3 - Week 4    | Completion of Step 1                 | Functional test cases verified |
+| 3                | Toolchain Utilization                 | Week 5 - Week 6    | Completion of Step 2                 | FPGA testing successful        |
+| 4                | Optimize Effort and Resources         | Week 7 - Week 8    | Completion of Step 3                 | Resource optimization achieved |
+| 5                | Validation and Refinement             | Week 9 - Week 10   | Completion of Step 4                 | SystemVerilog transition done  |
+| 6                | Future Enhancements                   | Week 11 onwards    | Completion of Step 5                 | Advanced features implemented  |

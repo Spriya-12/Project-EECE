@@ -26,5 +26,5 @@
 
 ---
 
-These requirements ensure the project meets its functional, performance, and verification objectives.
+
 

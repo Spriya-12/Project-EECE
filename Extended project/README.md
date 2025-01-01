@@ -1,16 +1,8 @@
-# Department of Electrical, Electronics, and Communication Engineering  
-**GITAM (Deemed to be University), Bengaluru, India**  
-**School of Technology**
-
----
-
-## Extended Abstract PROJ2099 (Major Project)
-
 **Title:**  
 Dual Port RAM Implementation on FPGA with Verilog and System Verilog - Driven Testbenches  
 
 **Project Supervisor:**  
-Dr. ArunKumar Minechara  
+Dr. ArunKumar Manoharan 
 
 **Cluster Name:**  
 VLSI  

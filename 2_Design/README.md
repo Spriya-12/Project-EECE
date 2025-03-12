@@ -1,93 +1,82 @@
-  
-
-## **Project Title:**
-### Dual Port RAM Implementation on FPGA with Verilog and SystemVerilog-Driven Testbenches
-
-### **Mid-Review 1/2/3**
+# Project Title
+## Dual Port RAM Implementation on FPGA with Verilog and SystemVerilog-Driven Testbenches
+### Mid-Review 1/2/3
 **Academic Year:** 2021-25  
 **Major Project ID:** V16  
 
----
-## **Objective and Goals**
+## Objective and Goals
+### Objective
+- **Optimize Resource Utilization:** Efficiently utilize FPGA hardware resources to ensure minimal usage without compromising performance.
+- **Facilitate Comprehensive Verification:** Use SystemVerilog-driven test benches to validate design under various operational conditions for robustness.
 
-### **Objective**
-- Optimize Resource Utilization: Efficiently utilize FPGA hardware resources to ensure minimal usage without compromising performance.
-- Facilitate Comprehensive Verification: Use SystemVerilog-driven test benches to validate design under various operational conditions for robustness.
+### Goals
+- **Scalability:** Develop a design that can scale for larger memory sizes or adapt to advanced FPGA architectures.
+- **Enhanced Verification:** Utilize SystemVerilog features like constrained random verification and functional coverage for thorough testing.
+- **Documentation and Reporting:** Provide clear documentation, including methodology, simulation results, and insights for future improvements.
 
-### **Goals**
-1. **Scalability:** Develop a design that can scale for larger memory sizes or adapt to advanced FPGA architectures.
-2. **Enhanced Verification:** Utilize SystemVerilog features like constrained random verification and functional coverage for thorough testing.
-3. **Documentation and Reporting:** Provide clear documentation, including methodology, simulation results, and insights for future improvements.
-
----
-## **Gantt Chart - Milestones and Activities**
-### **Project Plan**
+## Gantt Chart - Milestones and Activities
+### Project Plan
 Clearly mention milestones for objectives under each review.
 
-### **Literature Survey**
-- **Key Publications**
-  - *Design and Verification of Dual Port RAM using SystemVerilog Methodology* - 2019  
-  - *Design and Implementation of Synchronous Dual Port Memory* - 2024  
-  - *Verification Environment of Dual Port RAM* - 2019  
-  
-- **Key Resources**
-  - Whitepapers, Application Notes, Datasheets
-  - *Design and Verification of a Dual Port RAM Using UVM Methodology* (Paper)
-  - *Understanding Asynchronous Dual-Port RAMs* (Notes)
+## Literature Survey
+### Key Publications
+- **Design and Verification of Dual Port RAM using SystemVerilog Methodology** - 2019  
+- **Design and Implementation of Synchronous Dual Port Memory** - 2024  
+- **Verification Environment of Dual Port RAM** - 2019  
 
-- **Existing Implementations**
-  - SystemVerilog Dual-Port RAM by KennethWilke ([GitHub Link](https://github.com/KennethWilke/Dual-Port-RAM))
-  - Dual-Port RAM by yashgupta26 ([GitHub Link](https://github.com/yashgupta26/DPRAM))
+### Key Resources
+- **Whitepapers, Application Notes, Datasheets**  
+- **Design and Verification of a Dual Port RAM Using UVM Methodology (Paper)**  
+- **Understanding Asynchronous Dual-Port RAMs (Notes)**  
 
----
-## **Architecture**
+### Existing Implementations
+- **SystemVerilog Dual-Port RAM by KennethWilke** *(GitHub Link)*  
+- **Dual-Port RAM by yashgupta26** *(GitHub Link)*  
 
-## **Use Cases & Testing**
-### **Use Cases**
-- **Communication Systems:** Ideal for buffering and queuing in high-speed networks.
-- **Multi-Core Processors:** Enables efficient data sharing in parallel computing environments.
-- **FPGA-Based Prototyping:** Provides scalable memory design for various FPGA platforms.
+## Architecture
 
-### **Test Cases**
-1. **Basic Read/Write Operations:** Verify operations for different data widths and addresses.
-2. **Simultaneous Access:** Test concurrent read and write at different addresses.
-3. **Concurrent Operation:** Stress test with random read/write operations.
-4. **Reset and Initialization:** Verify memory reset behavior and default values.
+## Use Cases & Testing
+### Use Cases
+- **Communication Systems:** Ideal for buffering and queuing in high-speed networks.  
+- **Multi-Core Processors:** Enables efficient data sharing in parallel computing environments.  
+- **FPGA-Based Prototyping:** Provides scalable memory design for various FPGA platforms.  
 
----
-## **Implementation and Results**
-### **Iteration 1**
+### Test Cases
+- **Basic Read/Write Operations:** Verify operations for different data widths and addresses.  
+- **Simultaneous Access:** Test concurrent read and write at different addresses.  
+- **Concurrent Operation:** Stress test with random read/write operations.  
+- **Reset and Initialization:** Verify memory reset behavior and default values.  
+
+## Implementation and Results
+### Iteration 1
 - **Results:** RAM waveform, SRAM waveform  
 - **Code:** RAM code, SRAM Code  
 
-### **Iteration 2**
+### Iteration 2
 - **Results:** DRAM waveform, Dual-Port RAM waveform  
 
-### **Iteration 3**
+### Iteration 3
 - **Results & Validation:** Dual-Port RAM code, Testbench  
 
----
-## **Contribution**
-### **Team Progress**
-- Completed Implementation of RAM on FPGA.
-- Completed Implementation of RAM, SRAM, DRAM, Dual-Port RAM in SystemVerilog (Vivado).
+## Contribution
+### Team Progress
+- **Completed Implementation of RAM on FPGA.**  
+- **Completed Implementation of RAM, SRAM, DRAM, Dual-Port RAM in SystemVerilog (Vivado).**  
 
-### **Individual Contributions**
-- **C SanthiPriya:** Software implementation of RAM, SRAM, Dual-Port RAM & Documentation on Xilinx Vivado.
-- **Pranitha M:** Documentation & Software Implementation on Xilinx Vivado.
-- **N Keerthi:** Documentation & Software Implementation on Xilinx Vivado.
+**I have successfully completed the FPGA implementation of Dual-Port RAM.**  
 
----
-## **Conclusion & Future Work**
-### **Summary and Conclusion**
-- Implemented a memory architecture enabling simultaneous read/write operations, improving parallel processing performance.
-- Used SystemVerilog for hardware description and testbenches for verification.
-- Synthesized and implemented design on FPGA ensuring proper timing, area, and power optimization.
-- Extensive validation through SystemVerilog-driven testbenches.
+### Individual Contributions
+- **C SanthiPriya:** Software implementation of RAM, SRAM, Dual-Port RAM & Documentation on Xilinx Vivado.  
+- **Pranitha M:** Documentation & Software Implementation on Xilinx Vivado.  
+- **N Keerthi:** Documentation & Software Implementation on Xilinx Vivado.  
 
-### **Future Work**
-- Enhance DPRAM hardware implementation using advanced SystemVerilog features.
-- Explore improved methodologies and tools within SystemVerilog.
+## Conclusion & Future Work
+### Summary and Conclusion
+- Implemented a memory architecture enabling simultaneous read/write operations, improving parallel processing performance.  
+- Used SystemVerilog for hardware description and testbenches for verification.  
+- Synthesized and implemented design on FPGA ensuring proper timing, area, and power optimization.  
+- Extensive validation through SystemVerilog-driven testbenches.  
 
----
-
+### Future Work
+- **Enhance DPRAM hardware implementation using advanced SystemVerilog features.**  
+- **Explore improved methodologies and tools within SystemVerilog.**
